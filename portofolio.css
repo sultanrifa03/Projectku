@@ -1,0 +1,339 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(Foto/mount.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+nav
+{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.837);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.759);
+    padding: 20px;
+    z-index: 1;
+    margin: 0;
+}
+
+nav ul
+{
+    margin-right: 5%;
+    display: flex;
+}
+
+nav ul li a
+{
+    line-height: 60px;
+    color: white;
+    padding: 8px 12px;
+    margin: 0px 5px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+nav ul li a:hover
+{
+    color: yellow;
+    transition: 0.5s;
+}
+
+.logo
+{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#home
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.home
+{
+    text-align: left;
+    line-height: normal;
+    margin-top: 10%;
+}
+
+.home p:nth-child(1)
+{
+    margin-bottom: -10px;
+    margin-left: 20%;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+}
+
+.home p:nth-child(2)
+{
+    margin-left: 20%;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+}
+
+.home p:nth-child(3)
+{
+    margin-left: 20%;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    max-width: 800px;
+}
+.home
+{
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    transform: translate(10%, 10%);
+}
+
+.picture
+{
+    width: 300px;
+    height: auto;
+    position: center;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.medsos
+{
+    background-color: rgba(240, 248, 255, 0.411);
+    height: 9vh;
+    width: 40vh;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: 40%
+}
+
+.medsos img
+{
+    margin: 10px 0;
+    align-self: flex-end;
+}
+
+.medsos img
+{
+    width: 50px;
+    height: 50px;
+    margin: 0px 20px;
+    cursor: pointer;
+}
+
+.about
+{
+    height: 55vh;
+    background-color: brown;
+    padding: 2% 10% 10%;
+}
+
+.about-desc
+{
+    margin : 50px;
+}
+
+.about-desc p:nth-child(1)
+{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 0px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.about-desc p:nth-child(2)
+{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    max-width: 100%;
+}
+
+.row
+{
+    color: white;
+    margin: 30px;
+    padding: 20px;
+    display: flex;
+}
+
+.row .column h2
+{
+    text-align: center;
+}
+
+.row .column p
+{
+    text-align: justify;
+}
+
+.column
+{
+    flex: 50%;
+    padding: 15px;
+    height: 400px
+}
+.column
+{
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.759);
+    border-radius: 10px;
+}
+/*contact*/
+.contact
+{
+    height: 20vh;
+    padding: 2% 10% 10%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.contact-desc
+{
+    margin : 50px 50px 50px 50px;
+}
+
+.contact-desc p:nth-child(1)
+{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 0px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contact-desc p:nth-child(2)
+{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    max-width: 100%;
+}
+
+input[type=text], select, textarea
+{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    resize: vertical;
+    /* transform: translate(25%, 25%); */
+}
+
+input[type=submit]
+{
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* transform: translate(25%,25%); */
+}      
+
+.formulir
+{
+    margin-top: 20px;
+    justify-content: center;
+    padding: 30px;
+}
+/* buat footer tentang teknologi yang saya kuasai sebagai seorang developer */
+.footer
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 5vh;
+    padding: 2% 10% 10%;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 4px solid #ff6600;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-content h1 {
+    font-size: 24px;
+}
+
+.footer-content p {
+    font-size: 14px;
+}
+
+.footer-social {
+    display: flex;
+}
+
+.footer-social a {
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.footer-social img {
+    width: 50px;
+    height: 50px;
+}
+
+.footer-social img:hover {
+    opacity: 0.7;
+}
+.copyright
+{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    max-width: 100%;
+}
